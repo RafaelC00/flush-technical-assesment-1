@@ -17,14 +17,14 @@ export default function BigCard() {
       </p>
     </div>
     <div className="border-2 border-gray-400 rounded-lg px-4 py-2 flex flex-row items-center gap-4">
-        <img src="./src/assets/link.svg" alt="Link" />
+        <img src="images/link.svg" alt="Link" />
       <a href="#" className="text-white hover:text-slate-100 font-bold">
         platform.com/link/415rebfiaeubf
       </a>
     </div>
   </div>
   <div className="flex flex-col items-end justify-center p-8 w-1/2">
-    <img src="./src/assets/coin-box.png" alt="Boxes" className="w-full min-w-[148px]" />
+    <img src="images/coin-box.png" alt="Boxes" className="w-full min-w-[148px]" />
   </div>
 </div>
   )
