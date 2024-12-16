@@ -3,7 +3,7 @@ import SmallCard from "./SmallCard";
 
 export default function HeadBanner() {
   return (
-    <div className="flex flex-row">
+    <div className="flex xl:flex-row flex-col w-full">
         <BigCard />
         <SmallCard
         icon="images/gift-box.png"
