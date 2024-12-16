@@ -1,4 +1,11 @@
-export default function SmallCard({ icon, percentage, title, description }) {
+interface SmallCardProps {
+    icon: string;
+    percentage: string;
+    title: string;
+    description: string;
+  }
+  
+  export default function SmallCard({ icon, percentage, title, description }: SmallCardProps) {
     return (
       <div className="relative w-[215px] bg-gradient-to-r from-[rgba(95,159,255,0.22)] to-[rgba(43,43,43,0.29)] border border-[rgba(255,255,255,0.04)] backdrop-filter backdrop-blur-[16.5px] rounded-[13px] m-2">
         <div className="flex flex-col items-center w-[184px] gap-4 p-4">
