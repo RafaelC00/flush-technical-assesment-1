@@ -7,13 +7,13 @@ import RecentDrops from './components/RecentDrops'
 function App() {
    return (
     <>
-      <section className="flex flex-col items-center justify-center gap-4 sm:p-4 w-full">
+      <section className="flex flex-col items-center justify-center gap-4 sm:p-4 w-full max-w-[1440px] m-auto">
         <HeadBanner />
         <BoxesCatalogue />
         <RecentDrops />
       </section>
       
-      <footer className="flex flex-col items-center justify-center gap-4 p-4">
+      <footer className="flex flex-col items-center justify-center w-full">
         <Footer />
       </footer>
     </>
